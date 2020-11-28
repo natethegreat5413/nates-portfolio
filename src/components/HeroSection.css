@@ -1,3 +1,7 @@
+/* To get rid of video background: 
+   1: uncomment background code
+   2: comment out video css
+   3: comment out video jsx in HeroSection component */
 video {
     object-fit: cover;
     width: 100%;

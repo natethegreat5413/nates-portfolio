@@ -1,0 +1,19 @@
+.con-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.success-msg {
+    color: #57A773;
+    padding: 10px 15px;
+}
+.err-msg {
+    color: #ee6532;
+    padding: 10px 15px;
+}
