@@ -6,7 +6,6 @@
   }
   
   .home,
-  .about,
   .contact,
   .sign-up {
     display: flex;
@@ -16,14 +15,15 @@
     font-size: 3rem;
   }
   
-  .about {
+  /* .about {
     background-image: url('/src/images/img-6.jpg');
+    background-color: rgba(255, 255, 255, 0.938);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: black;
     font-size: 100px;
-  }
+  } */
   
   .contact {
     background-image: url('/src/images/img-7.jpg');
