@@ -9,7 +9,7 @@ function HeroSection() {
    
     return (
         <div className='hero-container'>
-            <video src={video1} autoPlay loop muted />
+            {/* <video src={video1} autoPlay loop muted /> */}
             <h1>Hi, I'm Nate Cowley</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
