@@ -6,6 +6,7 @@
   }
   
   .home,
+  .about,
   .contact,
   .sign-up {
     display: flex;

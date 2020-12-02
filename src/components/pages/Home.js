@@ -16,7 +16,7 @@ function Home () {
         <section id='projects'>
             <Cards />
         </section>
-        <section id='contact'>
+        <section id='footer'>
             <Footer />
         </section>
         </>
