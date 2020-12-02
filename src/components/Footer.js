@@ -24,6 +24,7 @@ function Footer() {
                     
                         <Button buttonStyle='btn--outline' buttonSize='btn--large' onClick={contact}>Contact Me</Button>
                 </div>
+                <p>or connect with me through Social Media.</p>
             </section>
             <section className='social-media'>
                 <div className='social-media-wrap'>
