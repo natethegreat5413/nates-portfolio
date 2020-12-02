@@ -1,0 +1,30 @@
+
+.about {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background-color: lightgray;
+    background: url('/src/images/jesus-kiteque-wn-KYaHwcis-unsplash.jpg') center center/cover no-repeat;
+    object-fit: contain;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 0 14%;
+    padding-bottom:5%;
+}
+
+.title{
+    font-size: 6rem;
+    color: black;
+}
+
+.paragraphs {
+    font-size: 1.5rem;
+    padding-top: 55px;
+    color: black;
+}

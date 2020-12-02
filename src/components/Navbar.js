@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import { Link } from 'react-router-dom'
 import './Navbar.css'
-
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     const [click, setClick] = useState(false)
@@ -29,17 +28,17 @@ window.addEventListener('resize', showButton)
             <nav className="navbar">
                 <div className="navbar-container">
                     
-                    <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
+                    <a href='#heroSection' className="navbar-logo" onClick={closeMobileMenu}>
                         NC <i className='fab fa-typo3' />
-                    </Link>
+                    </a>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <a href='#heroSection' className='nav-links' onClick={closeMobileMenu}>
                             Home
-                        </Link>
+                        </a>
                     </li>
                     <li className='nav-item'>
                         <a href='#about-section' className='nav-links' onClick={closeMobileMenu}>
@@ -52,9 +51,9 @@ window.addEventListener('resize', showButton)
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                        <a href='#footer' className='nav-links' onClick={closeMobileMenu}>
                             Contact
-                        </Link>
+                        </a>
                     </li>
                     </ul>
                 </div>

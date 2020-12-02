@@ -5,6 +5,7 @@
   
   h1 {
     text-align: center;
+    font-size: 5rem;
   }
   
   .cards__container {
@@ -98,6 +99,22 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .fas {
+    color: black;
+  }
+  
+  .gh {
+    color: black
+  }
+
+  .link-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
