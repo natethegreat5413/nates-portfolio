@@ -8,8 +8,9 @@ export default function About() {
     <div className='content'>
     <h1 className='title'>About Me</h1>
     <div className='paragraphs'>
-    <p>Born and raised in the great state of Utah which is where I am at currently.  Never believing the traditional University education to be a good fit for me I sought alternative paths for education through trade schools which is how I ended up learning to code.</p><br/>
-    <p>I joined the tech industry because I saw all the opportunities it presented and realized it would provide the lifestyle I always wanted.  When I'm not coding I'm always seeking out the best adventures that Utah has to offer.</p></div></div>
+    <p>My journey to coding started after realizing a traditional university route was not a good fit for me.  I value education and sought to further my skill set through an alternative path: Trade School.</p><br/>
+    <p>Through my program at Lambda, I learned to code and developed a passion for the tech industry.  In a technology focused world, I saw the many opportunities this field presented for personal growth and satisfaction.</p><br/>
+    <p>I am a native Utahn, and when I'm not coding, I'm out seeking the best advaentures Utah has to offer.</p></div></div>
     </div>
     )
 }
