@@ -46,9 +46,9 @@ function Cards() {
                         src={Plants}
                         text="An app for all the plant lovers out there who just need a simple reminder when they need to water their plants each week."
                         label='Water My Plants'
-                        url='https://front-end-nine-theta.now.sh/'
+                        url='https://plantparenthood-40nlewndt.vercel.app/'
                         url1='https://github.com/natethegreat5413/front-end?organization=natethegreat5413&organization=natethegreat5413'
-                        url2='https://front-end-nine-theta.now.sh/'
+                        url2='https://plantparenthood-40nlewndt.vercel.app/'
                         />
                     </ul>
                 </div>
