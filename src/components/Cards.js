@@ -9,6 +9,7 @@ import storySquad from '../images/story-squad.png';
 import Plants from '../images/plants.jpg';
 import kickstarter from '../images/kickstart.jpg';
 import weather from '../images/weather-app.png';
+import disaster from '../images/disaster-app.png';
 
 function Cards() {
 	return (
@@ -32,6 +33,14 @@ function Cards() {
 							url="https://www.youtube.com/watch?v=fo_eAq-__RE"
 							url1="https://github.com/natethegreat5413/story-squad-fe-b"
 							url2="https://www.youtube.com/watch?v=fo_eAq-__RE"
+						/>
+						<CardItem
+							src={disaster}
+							text="Disaster Tracker uses google maps to mark wildfires, volcanoes, and icebergs across the globe using the NASA API."
+							label="Disaster Tracker"
+							url="https://disaster-tracker.vercel.app/"
+							url1="https://github.com/natethegreat5413/disaster-tracker"
+							url2="https://disaster-tracker.vercel.app/"
 						/>
 					</ul>
 					<ul className="cards__items">
