@@ -5,6 +5,7 @@ import './Cards.css';
 // photos
 import nz from '../images/new-zealand.jpg';
 import todo from '../images/todo.png';
+import youtube from '../images/youtube.png';
 import storySquad from '../images/story-squad.png';
 import Plants from '../images/plants.jpg';
 import kickstarter from '../images/kickstart.jpg';
@@ -45,12 +46,12 @@ function Cards() {
 					</ul>
 					<ul className="cards__items">
 						<CardItem
-							src={todo}
-							text="This will help you keep track of the things that need to get done during the day."
-							label="My To-Do List"
-							url="https://react-todo-eight-woad.vercel.app/"
-							url1="https://github.com/natethegreat5413/React-Todo/tree/nate-cowley-2"
-							url2="https://react-todo-eight-woad.vercel.app/"
+							src={youtube}
+							text="A clone of the youtube app which lets you search for videos on the youtube API."
+							label="Youtube Clone"
+							url="http://youtube-clone.natethegreat5413.vercel.app/"
+							url1="https://github.com/natethegreat5413/youtube-clone"
+							url2="http://youtube-clone.natethegreat5413.vercel.app/"
 						/>
 						<CardItem
 							src={Plants}
