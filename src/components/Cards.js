@@ -21,11 +21,17 @@ function Cards() {
 					<ul className="cards__items">
 						<CardItem
 							src={kickstarter}
-							text="This is a RESTful API built for a kickstarter app that allows you to Register, Login, Start, Edit, and Delete Campaigns. Works with data science to determine the success of the campaign."
+							text="This is a RESTful API built for a kickstarter app that allows you to Register, Login, Start, Edit, and Delete Campaigns."
 							label="Kickstarter REST API"
 							url="https://documenter.getpostman.com/view/12253302/TVKEVbXn"
 							url1="https://github.com/buildweek-kickstarter/back-end"
 							url2="https://documenter.getpostman.com/view/12253302/TVKEVbXn"
+							tech1="NodeJS"
+							tech2="bcryptJS"
+							tech3="Express"
+							tech4="JSON Web Tokens"
+							tech5="Knex"
+							tech6="Jest"
 						/>
 						<CardItem
 							src={storySquad}
@@ -53,14 +59,14 @@ function Cards() {
 							url1="https://github.com/natethegreat5413/youtube-clone"
 							url2="http://youtube-clone.natethegreat5413.vercel.app/"
 						/>
-						<CardItem
+						{/* <CardItem
 							src={Plants}
 							text="An app for all the plant lovers out there who just need a simple reminder when they need to water their plants each week."
 							label="Water My Plants"
 							url="https://plantparenthood-40nlewndt.vercel.app/"
 							url1="https://github.com/natethegreat5413/front-end?organization=natethegreat5413&organization=natethegreat5413"
 							url2="https://plantparenthood-40nlewndt.vercel.app/"
-						/>
+						/> */}
 						<CardItem
 							src={weather}
 							text="A weather app retreiving information from an api that let's you see the weather anywhere in the world."
